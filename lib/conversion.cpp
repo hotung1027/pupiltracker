@@ -1,4 +1,4 @@
-# include <pupiltracker-pythonwrapper/conversion.h>
+# include <pupiltracker_pythonwrapper/conversion.h>
 /*
  * The following conversion functions are taken/adapted from OpenCV's cv2.cpp file
  * inside modules/python/src2 folder.
