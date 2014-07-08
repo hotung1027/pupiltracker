@@ -4,7 +4,6 @@
 #include <pupiltracker_pythonwrapper/conversion.h>
 #include <pupiltracker/PupilTracker.h>
 #include <pupiltracker/cvx.h>
-#include <vector>
 
 namespace py = boost::python;
 
@@ -13,13 +12,6 @@ py::list findPupil(PyObject *mat, int radius_min = 3, int radius_max = 8, double
 		int percentage_inliers = 30, int inlier_iterations = 2, bool image_aware_support = true,
 		int early_termination_percentage = 95, bool early_rejection = true, int seed = -1)
 {
-	//Extract list of doubles in std::vector
-	/*std::vector<double> param_vec;
-	for (int i = 0; i < py::len(parameters); ++i)
-    	{
-        	param_vec.push_back(py::extract<double>(parameters[i]));
-    	}*/
-
 	//Convert ndarray image into cv::Mat
 	NDArrayConverter cvt;
 	cv::Mat m = cvt.toMat(mat);
