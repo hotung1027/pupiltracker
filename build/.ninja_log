@@ -1,0 +1,9 @@
+# ninja log v5
+1	366	1649428458130000000	lib/CMakeFiles/pupiltracker.dir/utils.cpp.o	d0e4e8d6c4d11dd9
+1	382	1649428656640000000	lib/CMakeFiles/pupiltracker.dir/utils.cpp.o	b5686a4ae98effce
+1	342	1649429774630000000	lib/CMakeFiles/pupiltracker.dir/utils.cpp.o	ce265eec914ef00f
+1	800	1649429775090000000	lib/CMakeFiles/pupiltracker.dir/cvx.cpp.o	1e6152bfdbb6fa32
+1	1215	1649429775500000000	cmd/CMakeFiles/pupiltrackercmd.dir/PupilTrackerCmd.cpp.o	42e13559d555f8df
+0	1668	1649429775950000000	lib/CMakeFiles/pupiltracker.dir/PupilTracker.cpp.o	152fcfef768f1804
+1669	1685	1649429775980000000	lib/libpupiltracker.a	c16574ba252f4f95
+1685	1906	1649429776200000000	cmd/pupiltrackercmd	85096c342e8ce54e
